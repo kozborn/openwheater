@@ -16,6 +16,15 @@
   height: 20px;
 }
 
+.openweather__error-message {
+  text-align: center;
+  color: red;
+}
+
+.openweather__error-message::first-letter {
+  text-transform: uppercase;
+}
+
 label {
   position: absolute;
   top: 24px;
@@ -72,6 +81,10 @@ input:-webkit-autofill {
   transition: 0.3s ease;
   left: 0px;
   position: relative;
+}
+
+.openweather__loading-bar {
+  text-align: center;
 }
 
 .bar:before {

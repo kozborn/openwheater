@@ -1,0 +1,15 @@
+.openweather__results {
+  max-width: 1000px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.openweather__results__left {
+  width: 200px;
+  margin-right: 20px;
+}
+
+.openweather__results__right {
+  flex-grow: 1;
+}
