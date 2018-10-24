@@ -46,7 +46,6 @@ class Openweather extends React.Component {
       .then(() => {
         this.setState({ fetching: false });
       });
-    // console.log(searchValue);
   }
 
   render() {
