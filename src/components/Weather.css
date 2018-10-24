@@ -1,6 +1,5 @@
 .weather {
   width: 100%;
-  margin-bottom: 10px;
 }
 
 .weather:last-child {
@@ -10,14 +9,14 @@
 .weather > div {
   margin-right: 20px;
 }
-
+.weather__desc,
 .param {
   font-size: 14px;
   margin-bottom: 5px;
 }
 
 .weather__date {
-  font-size: 12px;
+  font-size: 11px;
   font-style: italic;
 }
 
